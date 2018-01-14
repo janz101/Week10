@@ -1,19 +1,22 @@
-from CashRegister import CashRegister
+class CashRegister:
 
-cash=CashRegister()
+    def_init_(self):
+         self_itemcount=0
+         self_totalprice=0.0
 
-print(cash.getTotal())
-print(cash.getcount())
+    def additem(self.price):
+        self_itemCount=self_itemCount+1
+        self_totalPrice=self_totalPrice+price
 
-cash.addition(99)
+    def getCount(self):
+        self_itemCount=0
+        self_totalPrice=0.0
 
-print(cash.getTotal())
-print(cash.getCount())
+    def givechange(self.paid)
+        return(paid-self._totalPrice)
 
-print("your charge is".cash.givechange(120))
 
-cash.clear()
 
-print("cash class variable values after cleaning")
-print(cash.getTotal())
-print(cash.getCount())
+                
+
+    
